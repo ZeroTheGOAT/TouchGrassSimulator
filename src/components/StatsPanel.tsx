@@ -3,7 +3,7 @@ import { Trophy, Calendar, Zap, Award } from 'lucide-react';
 import { useGame } from '../contexts/GameContext';
 
 export default function StatsPanel() {
-  const { state, getCurrentPlayerTitle } = useGame();
+  const { state, dispatch, getCurrentPlayerTitle } = useGame();
 
   const stats = [
     {
@@ -43,6 +43,9 @@ export default function StatsPanel() {
         </h2>
         <div className="bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text">
           <p className="font-semibold">{getCurrentPlayerTitle()}</p>
+        </div>
+        <div className="mt-2 text-white/80">
+          <p className="text-sm">Player: <span className="font-semibold text-white">{state.playerName}</span></p>
         </div>
       </div>
 

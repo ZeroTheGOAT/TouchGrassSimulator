@@ -57,8 +57,8 @@ const initialState: GameState = {
   showShareModal: false,
   showPrestigeModal: false,
   leaderboard: [
-    { name: 'GrassGod420', touches: 69420, prestige: 7, avatar: '🌱', title: 'Photosynthesis Papi' },
-    { name: 'LawnMower69', touches: 42069, prestige: 5, avatar: '🍃', title: 'Certified Grass Enjoyer' },
+    { name: 'HariGOAT', touches: 69420, prestige: 7, avatar: '🌱', title: 'Photosynthesis Papi' },
+    { name: 'YashNigga', touches: 42069, prestige: 5, avatar: '🍃', title: 'Certified Grass Enjoyer' },
     { name: 'TouchMaster', touches: 13337, prestige: 3, avatar: '🌿', title: 'Lawn Demon' },
     { name: 'GrassToucher', touches: 8888, prestige: 2, avatar: '🌾', title: 'Indoor NPC Reformed' },
     { name: 'FieldWalker', touches: 6969, prestige: 1, avatar: '🍀', title: 'Grass Apprentice' },
