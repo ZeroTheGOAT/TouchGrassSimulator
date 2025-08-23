@@ -15,8 +15,8 @@ export default function Leaderboard() {
 
   const allEntries = [...state.leaderboard, playerEntry]
     .sort((a, b) => {
-      if (a.prestige !== b.prestige) return b.prestige - a.prestige;
-      return b.touches - a.touches;
+      if (a.touches !== b.touches) return b.touches - a.touches;
+      return b.prestige - a.prestige;
     })
     .slice(0, 10);
 
