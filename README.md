@@ -1,1 +1,2 @@
 TouchGrassSimulator
+for NPCs only
