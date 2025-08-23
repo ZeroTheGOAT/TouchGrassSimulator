@@ -57,11 +57,11 @@ const initialState: GameState = {
   showShareModal: false,
   showPrestigeModal: false,
   leaderboard: [
-    { name: 'HariGOAT', touches: 69420, prestige: 7, avatar: '🌱', title: 'Photosynthesis Papi' },
-    { name: 'YashNigga', touches: 42069, prestige: 5, avatar: '🍃', title: 'Certified Grass Enjoyer' },
-    { name: 'TouchMaster', touches: 13337, prestige: 3, avatar: '🌿', title: 'Lawn Demon' },
-    { name: 'GrassToucher', touches: 8888, prestige: 2, avatar: '🌾', title: 'Indoor NPC Reformed' },
-    { name: 'FieldWalker', touches: 6969, prestige: 1, avatar: '🍀', title: 'Grass Apprentice' },
+    { name: 'HariGOAT', touches: 696969, prestige: 7, avatar: '🌱', title: 'I will touch you too' },
+    { name: 'YashNigga', touches: 420420, prestige: 5, avatar: '🍃', title: 'Certified Grass Enjoyer' },
+    { name: 'KoushikTWINK', touches: 140, prestige: 3, avatar: '🌿', title: 'FAt Faggot' },
+    { name: 'GrassToucher', touches: 168, prestige: 2, avatar: '🌾', title: 'Indoor NPC Reformed' },
+    { name: 'FieldWalker', touches: 64, prestige: 1, avatar: '🍀', title: 'Grass Apprentice' },
   ],
   playerName: 'Anonymous Grass Toucher'
 };
