@@ -1,2 +1,1 @@
-For NPCs only
-try it here - https://touchsomegrasssnowflakes.vercel.app/
+For nggas with no outdoor life- https://touchsomegrasssnowflakes.vercel.app/
